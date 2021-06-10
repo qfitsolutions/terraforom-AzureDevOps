@@ -13,7 +13,7 @@ variables:
   anyTfChanges: false
 
 steps:
-- task: TerraformInstaller
+- task: TerraformTaskV1@0
   displayName: install terraform
   inputs:
     terraformVersion: 0.12.28
